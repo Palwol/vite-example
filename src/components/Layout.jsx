@@ -1,10 +1,10 @@
 import {PlusIcon, XIcon} from '@/assets';
 import {navigationList} from '@/static/navigationList';
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Layout.module.css';
 import {isOdd} from '@/utils/isOdd';
 import {Link} from 'react-router-dom';
 
-const Home = () => {
+const Layout = ({children}) => {
   return (
     <>
       <header>
@@ -26,9 +26,9 @@ const Home = () => {
           </ul>
         </nav>
       </header>
-      <main></main>
+      <main>{children}</main>
     </>
   );
 };
 
-export default Home;
+export default Layout;
