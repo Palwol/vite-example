@@ -1,7 +1,6 @@
 import HomePage from '@/pages/home';
-import {createBrowserRouter} from 'react-router-dom';
 
-const routerList = [
+export const router = [
   {
     path: '/',
     element: <HomePage />,
@@ -23,5 +22,3 @@ const routerList = [
     element: <div>Cart</div>,
   },
 ];
-
-export const router = createBrowserRouter(routerList);
