@@ -1,9 +1,10 @@
+import HomePage from '@/pages/home';
 import {createBrowserRouter} from 'react-router-dom';
 
 const routerList = [
   {
     path: '/',
-    element: <div>Home</div>,
+    element: <HomePage />,
   },
   {
     path: '/notice',
