@@ -32,4 +32,9 @@ nav ul li {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: color 0.3s;
+}
+
+nav ul li:hover {
+  color: rgb(174, 174, 174);
 }
